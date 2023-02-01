@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    background-color: #55a4e5;
+    background-image: url('https://static.wixstatic.com/media/c3d556_8ad399cb4cd34b3a98bce25ab699d963~mv2.png/v1/fill/w_168,h_94,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoinnojc_edited.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav-tabs>li>a {
+    color: white;
+}
+.nav-tabs>li {
+    width:25%;
+	text-align:center;
+}
+h3{
+color:white;
+}
+  </style>
+</head>
+<body>
+
+<div class="container" style="padding:30px;">
+<div class="row">
+<div class="col-md-3 col-lg-3 col-sm-3">
+  <img src="https://static.wixstatic.com/media/c3d556_8ad399cb4cd34b3a98bce25ab699d963~mv2.png/v1/fill/w_168,h_94,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoinnojc_edited.png">
+</div>
+<div class="col-md-9 col-sm-9 col-lg-9">
+<p>
+
+About Us
+Innojc provides Hotel's Services throughout globe.</p>
+</div>
+</div>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Customer Details</a></li>
+    <li><a data-toggle="tab" href="#menu1">Transaction History</a></li>
+    <li><a data-toggle="tab" href="#menu2">Check-in Details</a></li>
+    <li><a data-toggle="tab" href="#menu3">Hotel Name</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>JHON DOE</h3>
+	  <div class="row">
+	  <div class="col-md-12">
+	  <p style="color:black;">NAME: <span style="color:white;">JOGN DOE</span></p>
+	   <p style="color:black;">CONTACT NUMBER: <span style="color:white;">9848022338</span></p>
+	    <p style="color:black;">ADHAR NUMBER: <span style="color:white;">3245 4586 9587</span></p>
+		 <p style="color:black;">ADDRESS: <span style="color:white;">Brandfactory building 2nd floor KPHB, KPHB</span></p>
+		  <p style="color:black;">PINCODE: <span style="color:white;">500072</span></p>
+	  </div>
+	  </div>
+
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3></h3>
+       <table class="table table-striped table-bordered">
+	    <thead>
+      <tr>
+        <th>Payment Method</th>
+        <th>Confirmation</th>
+        <th>Transaction Id</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>UPI</td>
+        <td>Yes</td>
+        <td>234567891910</td>
+      </tr>
+      <tr>
+        <td>Cash</td>
+        <td>No</td>
+        <td>234567891910</td>
+      </tr>
+      <tr>
+        <td>Card</td>
+        <td>yes</td>
+        <td>234567891910</td>
+        
+      </tr>
+    </tbody>
+  </table>
+	  </div>
+    <div id="menu2" class="tab-pane fade">
+	<h3></h3>
+       <table class="table table-striped table-bordered">
+	    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Check In</th>
+		 <th>Check Out</th>
+		 <th>To.No.Peoples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>12-8-2023</td>
+        <td>9:10am</td>
+		 <td>9:10am</td>
+		 <td>2</td>
+      </tr>
+      <tr>
+	  <td>12-8-2023</td>
+        <td>9:10am</td>
+		 <td>9:10am</td>
+		  <td>2</td>
+      </tr>
+      <tr>
+	  <td>12-8-2023</td>
+        <td>9:10am</td>
+		 <td>9:10am</td>
+		  <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+	  
+     </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3> </h3>
+         <table class="table table-striped table-bordered">
+	    <thead>
+      <tr>
+        <th>Hotel Name</th>
+        <th>Hotel Address</th>
+		 <th>PinCode</th>
+		 <th>Hotel Owner</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Vinay</td>
+        <td>Macherla</td>
+		 <td>522426</td>
+		 <td>Chiru</td>
+      </tr>
+      <tr>
+	  <td>Vinay</td>
+        <td>Macherla</td>
+		 <td>522426</td>
+		 <td>Jai Balaya</td>
+      </tr>
+      <tr>
+	  <td>Vinay</td>
+        <td>Macherla</td>
+		 <td>522426</td>
+		 <td>Venkey Mama</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
